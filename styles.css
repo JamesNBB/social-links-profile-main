@@ -96,17 +96,6 @@ p {
     opacity: .8;
 }
 
-
-.attribution { 
-    font-size: 11px; 
-    text-align: center;
-    font-style: italic;
-}
-.attribution a { 
-    text-decoration: none;
-    color: var(--white);
-}
-
 @media (max-width: 450px) {
     .container {
         padding: 1.5rem;

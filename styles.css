@@ -20,15 +20,12 @@
     padding: 0;
 }
 
-html {
-    font-family: Inter;
-    font-size: 14px;
-}
-
 body {
     max-width: 1440px;
     min-height: 100vh;
     
+    font-family: Inter;
+    font-size: 14px;
     background-color: var(--off-black);
     color: var(--white);
 
@@ -77,23 +74,27 @@ p {
     font-weight: 400;
 }
 
-.social-profiles div {
+.social-profiles p {
     width: 100%;
     background-color: var(--grey);
     margin: 15px 0 0 0;
     padding: 14px;
     border-radius: 10px;
     font-weight: 700;
-    cursor: pointer;
 }
 
-.social-profiles div:hover {
+.social-profiles a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.social-profiles p:hover {
     background-color: var(--green);
     color: var(--off-black);
 }
 
-.social-profiles div:active {
-    opacity: .8;
+.social-profiles p:active {
+    opacity: .9;
 }
 
 @media (max-width: 450px) {
